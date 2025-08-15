@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CSRF_Token" />
       </profile>
-      <profile name="Annotation profile for Custom_Config_SFT" enabled="true">
+      <profile name="Annotation profile for JDBC_Authentication" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -17,15 +17,7 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
         <module name="Custom_Config_SFT" />
-      </profile>
-      <profile name="Annotation profile for Form_Login_Authentication" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
-        </processorPath>
+        <module name="JDBC_Authentication" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +29,7 @@
       <module name="CSRF_Token" options="-parameters" />
       <module name="Custom_Config_SFT" options="-parameters" />
       <module name="Form_Login_Authentication" options="-parameters" />
+      <module name="JDBC_Authentication" options="-parameters" />
     </option>
   </component>
 </project>
